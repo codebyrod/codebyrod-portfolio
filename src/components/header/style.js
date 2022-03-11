@@ -1,22 +1,29 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+position: fixed;
+width: 100vw;
 height: 13vh;
-background-color: #212121;
 padding: 1rem;
-//font-family: 'Red Hat Display', sans-serif;
+background-color: #212121;
+box-shadow: 0px 1px 7px 0px rgb(0 0 0 / 65%);
+font-family: 'Red Hat Display', sans-serif;
 `
 export const Nav = styled.nav` 
 //width: 100%;
 display:flex;
 justify-content: space-between;
 `
-
-export const ImgLogo = styled.img` 
+export const BoxLogo = styled.div` 
 width: 7vw;
+margin-left: 2rem;
+
+img{
+    width: 100%;
+}
 `
+
 export const BoxItem = styled.ul`
-font-family: 'Red Hat Display', sans-serif;
 display: flex;
 width: 60vw;
 gap: .5rem ;

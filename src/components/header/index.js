@@ -6,9 +6,11 @@ export default function Header() {
   return (
     <S.Container>
       <S.Nav>
-        <a href="/Home">
-            <S.ImgLogo src={ImgLogo} alt="Logo do site. Uma palavra R entre os símbolos matemáticos menor e maior que"/>
-        </a>
+        <S.BoxLogo>
+          <a href="/Home">
+              <img src={ImgLogo} alt="Logo do site. Uma palavra R entre os símbolos matemáticos menor e maior que"/>
+          </a>
+        </S.BoxLogo>
         <S.BoxItem>
           <S.ListItem>
             <a href="/">Home</a>
