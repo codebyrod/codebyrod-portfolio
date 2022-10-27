@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 position: fixed;
+z-index: 999;
 width: 100vw;
 height: 13vh;
 padding: 1rem;
@@ -9,6 +10,7 @@ background-color: #212121;
 box-shadow: 0px 1px 7px 0px rgb(0 0 0 / 65%);
 font-family: 'Red Hat Display', sans-serif;
 `
+
 export const Nav = styled.nav` 
 //width: 100%;
 display:flex;
@@ -32,7 +34,6 @@ justify-content: center;
 `
 
 export const ListItem = styled.li` 
-
 a {
     display: block;
     width: 100px;
