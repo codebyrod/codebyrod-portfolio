@@ -1,5 +1,6 @@
 import React from 'react'
 import ImgLogo from '../../img/logo.png'
+import { Portfolio } from '../../pages/portfolio'
 import * as S from './style'
 
 export default function Header() {
@@ -18,9 +19,9 @@ export default function Header() {
           <S.ListItem>
             <a href="/">Sobre</a>
           </S.ListItem>
-          <S.ListItem>
+          {/* <S.ListItem>
             <a href="/">Serviços</a>
-          </S.ListItem>
+          </S.ListItem> */}
           <S.ListItem>
             <a href="/">Portfólio</a>
           </S.ListItem>
