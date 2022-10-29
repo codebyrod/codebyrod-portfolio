@@ -4,7 +4,7 @@ import ImgAvatar from '../../img/body3.png'
 
 export default function Main() {
   return (
-    <S.Container>
+    <S.Container id='home'>
       <S.BoxTxt>
       <S.Intro>Olá, Mundo! Meu nome é</S.Intro>
       <S.Title>RoDRIGo soUsA</S.Title>

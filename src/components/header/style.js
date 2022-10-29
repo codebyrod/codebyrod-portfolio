@@ -23,6 +23,10 @@ margin-left: 2rem;
 img{
     width: 100%;
 }
+
+img:hover{
+    cursor: pointer;
+}
 `
 
 export const BoxItem = styled.ul`
@@ -34,7 +38,6 @@ justify-content: center;
 `
 
 export const ListItem = styled.li` 
-a {
     display: block;
     width: 100px;
     text-align: center;
@@ -51,7 +54,7 @@ a {
     transition: 400ms;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    cursor: pointer;
     }
-}
 
 `

@@ -9,9 +9,9 @@ import SemiCircle from '../../img/about/semicircle.png'
 
 export default function About() {
   return (
-    <S.Container>
+    <S.Container id="sobre">
         <S.BoxTitle>
-            <h2>Quem sou eu?</h2>
+            <h2 >Quem sou eu?</h2>
         </S.BoxTitle>
         <S.Box>
             <S.BoxImg>

@@ -6,11 +6,11 @@ import cardHomeverse from '../../img/card-homeverse.png'
 import cardShoppingCar from '../../img/card-shoppingcar.png'
 import cardToDoHooks from '../../img/card-todohooks.png'
 
-export const Portfolio = () => {
+const Portfolio = () => {
   return (
-    <S.Container>
-        <S.BoxTitle>
-          <h2>Portfólio</h2>
+    <S.Container id='portfolio'>
+        <S.BoxTitle >
+          <h2 >Portfólio</h2>
         </S.BoxTitle>
         <S.BoxText>
           <p>Aqui estão alguns dos meus projetos.</p>
@@ -25,4 +25,5 @@ export const Portfolio = () => {
     </S.Container>
   )
 }
-            
+
+export default Portfolio
