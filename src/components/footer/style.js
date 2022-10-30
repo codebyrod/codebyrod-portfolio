@@ -2,6 +2,7 @@
 // #CA01D2, #70018B, #510373, #01718D, #04BFBF
 
 import styled from "styled-components";
+import { Link } from "react-scroll";
 
 export const Container = styled.div` 
 background-color: #2e2e2e;
@@ -56,19 +57,40 @@ ul{
     align-items: center;
     justify-content: space-around;
 }
+`
 
-li{
-font-size: 1.2rem;
+export const Item = styled(Link)`
+transition: 200ms;
+
+&:hover{
+    font-weight: 700;
+    cursor: pointer;
 }
 `
 
 export const BoxLogo = styled.div`
 display: flex;
 flex-direction: column;
-height: 15vw;
+height: 20vw;
 justify-content: space-around;
+
+a{
+    width: 5vw;
+    height: 5vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 200ms;
+}
+
+a:hover{
+    padding: 1rem;
+    border: 2px solid #fff;
+}
 
 img{
     width: 3vw;
-}`
+}
+`
 

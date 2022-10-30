@@ -52,7 +52,7 @@ align-items: center;
 width: 85vw;
 
 img{
-    width: 15vw;
+    width: 13vw;
     /* border-radius: 5%; */
     transition: ease-in-out 200ms;
     

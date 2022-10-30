@@ -4,7 +4,6 @@ import logoInsta from "../../img/logo-instagram.png";
 import logoGit from "../../img/logo-github.png";
 import logoIn from "../../img/logo-linkedin.png";
 import hadouken from "../../img/heartdouken.png";
-import { Link } from 'react-scroll';
 
 export default function Footer() {
   return (
@@ -15,18 +14,24 @@ export default function Footer() {
       <S.Box>
         <S.Nav>
           <ul>
-            <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
-            <Link to="sobre" spy={true} smooth={true} offset={-40} duration={500}>Sobre</Link>
-            <Link to="portfolio" spy={true} smooth={true} offset={-70} duration={500}>Portfólio</Link>
+            <S.Item to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</S.Item>
+            <S.Item to="sobre" spy={true} smooth={true} offset={-40} duration={500}>Sobre</S.Item>
+            <S.Item to="portfolio" spy={true} smooth={true} offset={-70} duration={500}>Portfólio</S.Item>
           </ul>
         </S.Nav>
         <S.BoxLogo>
-          <img src={logoGit} alt='' />
-          <img src={logoIn} alt='' />
-          <img src={logoInsta} alt='' />
+          <a href="https://github.com/codebyrod" target="__blank">
+            <img src={logoGit} alt='github' />
+          </a>
+          <a href="https://www.linkedin.com/in/codebyrod/" target="__blank">
+            <img src={logoIn} alt='linkedin' />
+          </a>
+          <a href="https://www.instagram.com/codebyrod/" target="__blank">
+            <img src={logoInsta} alt='instagram' />
+          </a>
         </S.BoxLogo>
         <div>
-          <img src={hadouken} alt='' />
+          <img src={hadouken} alt='personangem soltando mágia do amor' />
         </div>
       </S.Box>
       <div>
