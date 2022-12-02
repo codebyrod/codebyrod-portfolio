@@ -1,10 +1,10 @@
-import React from 'react'
-import * as S from './style'
-import Perfil from '../../img/about/perfil.png'
-import Paraquedas from '../../img/about/paraquedas.png'
-import Correndo from '../../img/about/correndo.png'
-import Estudando from '../../img/about/estudando.png'
-import SemiCircle from '../../img/about/semicircle.png'
+import React from 'react';
+import * as S from './style';
+import Perfil from '../../img/about/perfil.png';
+import Paraquedas from '../../img/about/paraquedas.png';
+import Correndo from '../../img/about/correndo.png';
+import Estudando from '../../img/about/estudando.png';
+import SemiCircle from '../../img/about/semicircle.png';
 
 
 export default function About() {

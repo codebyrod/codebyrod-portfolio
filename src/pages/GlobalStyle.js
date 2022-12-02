@@ -9,7 +9,4 @@ export const GlobalStyle = createGlobalStyle`
     list-style: none;
     color: #FFFFFF;
 }
-html {
-    /* scroll-behavior: smooth; */
-}
 `
